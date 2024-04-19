@@ -1,0 +1,38 @@
+.main-box {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.main-box-info{
+    display: flex;
+    color: red;
+    font-weight: 700;
+}
+
+.form-box {
+    width: 200px; 
+}
+
+.textNotification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-top: 150px;
+}
+
+.CardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    flex-flow: wrap;
+}
+.box-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
